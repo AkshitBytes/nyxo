@@ -2,6 +2,7 @@
   "name": "nyxo",
   "version": "1.0.0",
   "description": "Developer platform that explains itself.",
+  "type": "module",
   "bin": {
     "nyxo": "./bin/nyxo.js"
   },
@@ -15,6 +16,7 @@
     "nyxo"
   ],
   "dependencies": {
+    "@inquirer/prompts": "^8.5.2",
     "commander": "^15.0.0"
   }
 }
